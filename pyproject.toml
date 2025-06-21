@@ -1,0 +1,21 @@
+[project]
+name = "langgraph-courses"
+version = "0.1.0"
+description = "study for langgraph"
+authors = [
+    {name = "Andres Camilo Plaza Jimenez",email = "camiloplaza3@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "langgraph (>=0.4.8,<0.5.0)",
+    "langsmith (>=0.4.1,<0.5.0)",
+    "langchain (>=0.3.26,<0.4.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "langchain-openai (>=0.3.24,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
