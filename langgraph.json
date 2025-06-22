@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "my_agent": "./notebooks/first_steps.ipynb"
+  },
+  "env": "./.env"
+}
