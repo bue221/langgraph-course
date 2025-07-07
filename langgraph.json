@@ -1,7 +1,8 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "my_agent": "./notebooks/first_steps.ipynb"
+    "mini_swarm": "./projects/examples/mini_swarm.py:workflow",
+    "real_state_swarm": "./projects/examples/real_state_swarm.py:graph"
   },
   "env": "./.env"
 }
